@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/pp-group/alog/options"
-	"github.com/pp-group/alog/types"
+	"github.com/csh0101/alog/options"
+	"github.com/csh0101/alog/types"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

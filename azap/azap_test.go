@@ -10,14 +10,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pp-group/alog/azap"
-	"github.com/pp-group/alog/options"
-	"github.com/pp-group/alog/writers"
+	"github.com/csh0101/alog/azap"
+	"github.com/csh0101/alog/options"
+	"github.com/csh0101/alog/writers"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
-
 
 func TestFactory_ZapLogger(t *testing.T) {
 	logger, err := azap.NewLogger(t.Name(),

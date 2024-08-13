@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pp-group/alog/writers"
+	"github.com/csh0101/alog/writers"
 )
 
 func TestFileWriter(t *testing.T) {
