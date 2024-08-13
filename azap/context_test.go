@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/csh0101/alog/azap"
-	"github.com/csh0101/alog/options"
+	"github.com/csh0101/alog.git/azap"
+	"github.com/csh0101/alog.git/options"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

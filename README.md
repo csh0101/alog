@@ -11,9 +11,9 @@
 package main
 
 import (
-    "github.com/csh0101/alog"
-    "github.com/csh0101/alog/options"
-    "github.com/csh0101/alog/types"
+    "github.com/csh0101/alog.git"
+    "github.com/csh0101/alog.git/options"
+    "github.com/csh0101/alog.git/types"
     
     "go.uber.org/zap"
     "go.uber.org/zap/zapcore"

@@ -3,7 +3,7 @@ package azap
 import (
 	"context"
 
-	"github.com/csh0101/alog/types"
+	"github.com/csh0101/alog.git/types"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

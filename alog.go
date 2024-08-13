@@ -1,9 +1,9 @@
 package alog
 
 import (
-	"github.com/csh0101/alog/azap"
-	"github.com/csh0101/alog/options"
-	"github.com/csh0101/alog/types"
+	"github.com/csh0101/alog.git/azap"
+	"github.com/csh0101/alog.git/options"
+	"github.com/csh0101/alog.git/types"
 )
 
 // NewLogger new a logger instance. By default, it will create a logger based on uber/zap.
