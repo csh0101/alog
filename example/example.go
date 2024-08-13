@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/csh0101/alog.git"
-	"github.com/csh0101/alog.git/options"
-	"github.com/csh0101/alog.git/types"
+	"github.com/csh0101/alog"
+	"github.com/csh0101/alog/options"
+	"github.com/csh0101/alog/types"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

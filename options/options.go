@@ -3,7 +3,7 @@ package options
 import (
 	"io"
 
-	"github.com/csh0101/alog.git/types"
+	"github.com/csh0101/alog/types"
 	"go.uber.org/zap/zapcore"
 )
 
