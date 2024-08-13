@@ -1,4 +1,4 @@
-module github.com/csh0101/alog
+module github.com/csh0101/alog.git
 
 go 1.22
 
