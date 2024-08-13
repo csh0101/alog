@@ -61,6 +61,9 @@ func (l LoggerWithCtx) buildFields(ctx context.Context) []zapcore.Field {
 	if requestId, ok := ctx.Value("request_id").(string); ok {
 		fields = append(fields, zap.String("request_id", requestId))
 	}
+	if requestId, ok := ctx.Value("x-request_id").(string); ok {
+		fields = append(fields, zap.String("request_id", requestId))
+	}
 	return fields
 }
 
