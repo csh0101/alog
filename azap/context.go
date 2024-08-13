@@ -58,10 +58,10 @@ func (l LoggerWithCtx) Logger() types.Logger {
 
 func (l LoggerWithCtx) buildFields(ctx context.Context) []zapcore.Field {
 	fields := make([]zapcore.Field, 0, 1)
-	if requestId, ok := ctx.Value("request_id").(string); ok {
+	if requestId, ok := ctx.Value("request-id").(string); ok {
 		fields = append(fields, zap.String("request_id", requestId))
 	}
-	if requestId, ok := ctx.Value("x-request_id").(string); ok {
+	if requestId, ok := ctx.Value("x-request-id").(string); ok {
 		fields = append(fields, zap.String("request_id", requestId))
 	}
 	return fields
